@@ -1,25 +1,25 @@
 {
     "name": "kissy",
-    "version": "0.1.1",
-    "description": "KISSY Library on NodeJS",
-    "author": "Jayli <lijing00333@163.com>",
-    "bugs": { "web" : "http://jayli.github.com" },
-    "os": ["linux"],
+    "version": "1.2.0",
+    "description": "KISSY on NodeJS",
+    "author": "yiminghe <yiminghe@gmail.com>",
+    "homepage":"http://docs.kissyui.com",
+    "bugs": {
+        "url" : "https://github.com/kissyteam/nodejs-kissy/issues"
+    },    
     "contributors": [
+        "Jayli <lijing00333@163.com>",
+        "yiminghe <yiminghe@gmail.com>"
     ],
     "engines": {
-        "node" : ">=0.1.100"
+        "node" : ">=0.4.0"
     },
     "directories": {
-        "lib" : "lib"
+        "lib" : "./lib/"
     },
-    "main": "./lib/kissy",
-    "bin" : { "kissydocs" : "./cli.js" },
+    "main": "./lib/kissy-nodejs.js",
     "dependencies": {
-        "jsdom": ">=0.1.10", 
-        "htmlparser": ">=1.6.2",
-        "express": ">=1.0.0rc1",
-        "connect": ">=0.2.4"
+        "jsdom": ">=0.2.0"
     },
     "licenses":[
         {
@@ -29,6 +29,6 @@
     ],
     "repository": {
         "type":"git",
-        "url":"http://github.com/jayli/nodejs-kissy.git"
+        "url":"http://github.com/kissyteam/git@github.com:kissyteam/nodejs-kissy.git"
     }
 }
